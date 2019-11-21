@@ -1,0 +1,40 @@
+!!com.compuware.ispw.cli.model.IspwRoot
+ispwApplication:
+  ispwProject: git_to_ispw
+  ispwProjectPath: C:\temp\git_to_ispw
+  pathMappings:
+  - path: \ASM
+    types:
+    - fileExtension: asm
+      fileExtensionDefinedInIspw: true
+      ispwType: ASM
+  - path: \C
+    types:
+    - fileExtension: c
+      fileExtensionDefinedInIspw: false
+      ispwType: C
+  - path: \CLST
+    types:
+    - fileExtension: clst
+      fileExtensionDefinedInIspw: true
+      ispwType: CLST
+  - path: \COB
+    types:
+    - fileExtension: cob
+      fileExtensionDefinedInIspw: true
+      ispwType: COB
+  - path: \COPY
+    types:
+    - fileExtension: COPY
+      fileExtensionDefinedInIspw: true
+      ispwType: COPY
+  - path: \JOB
+    types:
+    - fileExtension: job
+      fileExtensionDefinedInIspw: false
+      ispwType: JOB
+  - path: \PLI
+    types:
+    - fileExtension: pli
+      fileExtensionDefinedInIspw: false
+      ispwType: PLI

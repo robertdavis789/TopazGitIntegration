@@ -1,0 +1,32 @@
+!!com.compuware.ispw.cli.model.IspwRoot
+ispwApplication:
+  application: PLAY
+  host: cw09.compuware.com
+  pathMappings:
+  - path: \ASM
+    types:
+    - fileExtension: asm
+      ispwType: ASM
+  - path: \C
+    types:
+    - fileExtension: c
+      ispwType: C
+  - path: \COPY
+    types:
+    - fileExtension: COPY
+      ispwType: COPY
+  - path: \CLST
+    types:
+    - fileExtension: clst
+      ispwType: CLST
+  - path: \JOB
+    types:
+    - fileExtension: job
+      ispwType: JOB
+  - path: \PLI
+    types:
+    - fileExtension: pli
+      ispwType: PLI
+  port: 47623
+  runtimeConfig: TPZP
+  stream: PLAY
